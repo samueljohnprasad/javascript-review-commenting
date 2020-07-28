@@ -1,0 +1,31 @@
+<html>
+
+
+<head>
+
+</head>
+<body>
+
+    <form>
+
+      Enter Username:<input type="text" id="username"> <br><br>
+
+       Your Comment: <textarea id="comment"></textarea> <br><br>
+
+       <button id="addButton" onclick="addComment()">Add Comment</button>
+       <button id="saveButton" onclick="saveComment()">Save</button>
+       <button id="saveReplyButton" onclick="saveReplyComment()">Save Reply</button>
+       <button id="replyCommentButton" onclick="reply()">ReplyToComment</button>
+       <button onclick="removeAllComments()">RemoveAll</button>
+    </form>
+
+    <p id="data"></p>
+
+     <ul id="list">
+     </ul>
+
+    <script src="reviewcommenting.js"></script>
+
+</body>
+
+</html>
